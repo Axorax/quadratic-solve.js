@@ -1,0 +1,1 @@
+export function quadraticSolve($,r,t,e){if(void 0!=e&&Array.isArray(e)&&2==e.length)return 1e-6>Math.abs($*e[0]*e[0]+r*e[0]+t)&&1e-6>Math.abs($*e[1]*e[1]+r*e[1]+t);{let a=r*r-4*$*t;if(a<0)return;let i=Math.sqrt(a);return[(-r+i)/(2*$),(-r-i)/(2*$)]}}export default quadraticSolve

@@ -1,0 +1,26 @@
+{
+  "name": "quadratic-solve",
+  "version": "2.0.0",
+  "description": "Solve quadratic equations",
+  "main": "quadratic-solve.js",
+  "exports": {
+    "import": "./quadratic-solve.js",
+    "require": "./quadratic-solve.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/quadratic-solve.js.git"
+  },
+  "keywords": [
+    "quadratic-solve",
+    "quadratic-equations",
+    "quadratic"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/quadratic-solve.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/quadratic-solve.js#readme"
+}
